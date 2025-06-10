@@ -1,0 +1,66 @@
+{
+  "intents": [
+    {"tag": "greeting",
+      "patterns": ["Hi",        "Hey",        "How are you","Is anyone there?",        "Hello",        "Good day"      ],
+      "responses": ["Hey :-)", "Hello, thanks for visiting", "Hi there, what can I do for you?", "Hi there, how can I help?" ]
+    },
+    {"tag": "visitor",
+      "patterns": ["I am a visitor","visitor","I have an appointment","Appointment","Interview","New joinee","New joining","New reporting"],
+      "responses": ["whom to meet?","whom to visit?","what do u do?","With whom you have appointment","Give AiFA Employee name whom you will meet"],
+      //"responses": ["whom to meet?","whom to visit?","With whom you have appointment","Give AiFA Employee name whom you will meet"]
+    },
+    {"tag": "accounts",
+      "patterns": ["came to meet accounts person","account opening","account manager","audit accounts"],
+      "responses": ["Ok.Wait for 5 mins.Will inform","Is it new account opening?","Are you here to audit accounts","Are you a bank person?","Are u here to meet Accountant?","Sorry today Accountant is on Leave.Happy Visiting"]
+    },
+    { "tag": "hr",
+      "patterns": ["hr manager","hr","Human Resources","hr training","event organizer","organizer","event"],
+      "responses": ["regarding event management","hr stationery","festival celebration","company outing","Are you new joinee?","regarding policies?","Delivery Manager","regarding job opening","career opportunity?"]
+    },
+    {"tag": "delivery",
+      "patterns": ["post/parcel/delivery","project deliverables","delivery","inhouse project","onsite delivery"],
+      "responses": ["timelines are not matching","project delivery on time","any post to be delivered?","any parcel"]
+    },
+    {"tag": "insurance",
+      "patterns": ["regarding insurance","insurance policy","insurance vertical","health insurance","health card","claims","insurance claims"],
+      "responses": ["Are you here to give insurance details","is it health insurance/vehicle insurance/insurance policy?","Do you want to meet HR or Accounts?"]
+    },
+    {"tag": "services",
+      "patterns": ["servicing person","wifi complaint","water purifier complaint","laptop/printer complaint"],
+      "responses": ["Any ticket lodged for servicing?","Is it laptop servicing / AC servicing / Water purifier servicing/Network servicing"]
+    },
+    {"tag": "manager",
+      "patterns": ["to meet manager","discuss with manager","business meeting with manager","HR Manager"],
+      "responses": ["Accounts Manager/HR Manager/Delivery Manager/Location Head","business meet"]
+    },
+    {"tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [ "See you later, thanks for visiting", "Have a nice day","Bye! Come back again soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": ["Which items do you have?","What kinds of items are there?","What do you sell?"],
+      "responses": ["We sell coffee and tea","We have coffee and tea"]
+    },
+    {
+      "tag": "payments",
+      "patterns": ["Do you take credit cards?","Do you accept Mastercard?","Can I pay with Paypal?","Are you cash only?"],
+      "responses": ["We accept VISA, Mastercard and Paypal","We accept most major credit cards, and Paypal"]
+    },
+    {
+      "tag": "delivery1",
+      "patterns": ["How long does delivery take?","How long does shipping take?","When do I get my delivery?"],
+      "responses": ["Delivery takes 2-4 days","Shipping takes 2-4 days"]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Tell me a joke!","Tell me something funny!","Do you know a joke?"],
+      "responses": ["Why did the hipster burn his mouth? He drank the coffee before it was cool.","What did the buffalo say when his son left for college? Bison."]
+    }
+  ]
+}
